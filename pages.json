@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/mail/mail",
+			"style": {
+				"navigationBarTitleText":"扬旭同城配送"
+			}
+		},
+		{
+			"path": "pages/supplier/supplier",
+			"style": {
+				"navigationBarTitleText":"供货商"
+			}
+		},
+		{
+			"path": "pages/waybill/waybill",
+			"style": {
+				"navigationBarTitleText":"运单"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText":"扬旭同城配送"
+			}
+		}
+	    ,{
+            "path" : "pages/addressBook/addressBook",
+            "style" : {
+				"navigationBarTitleText":"地址簿"
+			}
+        }
+        ,{
+            "path" : "pages/editAddress/editAddress",
+            "style" : {
+				"navigationBarTitleText":"新增"
+			}
+        }
+        ,{
+            "path" : "pages/supplierDetail/supplierDetail",
+            "style" : {
+				"navigationBarTitleText":"供货商详情"
+			}
+        }
+        ,{
+            "path" : "pages/waybillDetail/waybillDetail",
+            "style" : {
+				"navigationBarTitleText":"运单详情"
+			}
+        }
+        ,{
+            "path" : "pages/billingRules/billingRules",
+            "style" : {
+				"navigationBarTitleText":"计费规则"
+			}
+        }
+        ,{
+            "path" : "pages/serviceAgreement/serviceAgreement",
+            "style" : {
+				"navigationBarTitleText":"服务协议"
+			}
+        }
+        ,{
+            "path" : "pages/aboutUs/aboutUs",
+            "style" : {
+				"navigationBarTitleText":"关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/mineInfo/mineInfo",
+            "style" : {
+				"navigationBarTitleText":"个人信息"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1E86E9",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#858585",
+		"selectedColor":"#1E86E9",
+		"list": [
+			{
+				"pagePath":"pages/mail/mail",
+				"text":"寄件",
+				"iconPath":"static/jijian.png",
+				"selectedIconPath":"static/jijian1.png"
+			},
+			{
+				"pagePath":"pages/supplier/supplier",
+				"text":"供货商",
+				"iconPath":"static/gonghuoshang_tab.png",
+				"selectedIconPath":"static/gonghuoshang_tab1.png"
+			},
+			{
+				"pagePath":"pages/waybill/waybill",
+				"text":"运单",
+				"iconPath":"static/yundan.png",
+				"selectedIconPath":"static/yundan1.png"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/mine.png",
+				"selectedIconPath":"static/mine1.png"
+			}
+		]
+	}
+}
